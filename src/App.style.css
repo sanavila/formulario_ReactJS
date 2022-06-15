@@ -1,3 +1,19 @@
+.questions, 
+.values {
+    background-color: rgb(249, 253, 8);
+    border-color: #000;
+    border: 1px solid;
+    font-size: 1.5rem;
+    max-width: 980px;   
+    padding: 20px;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .questions {
-    background-color: red;
+    display: flex;
+    flex-direction: column; 
+}
+input {
+    padding: 10px;
+    margin: 7px;
 }
